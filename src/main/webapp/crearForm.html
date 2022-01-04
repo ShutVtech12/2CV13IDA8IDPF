@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Crear Pregunta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1 align="center">Crear nueva pregunta</h1>
+        <div>
+            <form name="frmDatos" method="get" action="Crear" class="forma formbasic" enctype="multipart/form-data">
+                <div>
+                    <input type="text" name="txtNombre" placeholder="Nombre pregunta" required="required">
+                </div>
+                <div>
+                    <input type="text" name="txtPregunta" placeholder="Pregunta" required="required">
+                </div>
+                <div>
+                    <input type="text" name="txtRespuesta" placeholder="Respuesta" required="required">
+                </div>
+                
+                <div>
+                    <input type="text" name="catetoO" placeholder="co" required="required">
+                </div>
+                <div>
+                    <input type="text" name="catetoA" placeholder="ca" required="required">
+                </div>
+                
+                <div>
+                    <input type="text" name="angulo" placeholder="angulo" required="required">
+                </div>
+                
+                <div>
+                    <label for="imagen" class="textex">Imagen</label>
+                    <input type="text" name="nomImg" placeholder="NombreImg" required="required">
+                    <input type = "file" name = "img" id="target4" size = "90" required="required"/>
+                </div>
+                <!--<div class="derecha">
+                    <label for="target4" class="textex">Target opci&oacute;n 4</label>
+                    <input type="text" name="txtOpc8" placeholder="Opcion Columna 8" required="required">
+                    <input type = "file" name = "target4" id="target4" size = "90" required="required"/>
+                </div>-->
+                <div align='center'>
+                    <button type="submit" class="btnE" name="btnEnviar">Enviar</button>
+                </div>
+                <div align='center'>
+                    <p><a class='btnE' aria-current='page' href='javascript: history.go(-1)'>Regresar</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
